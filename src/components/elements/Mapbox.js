@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
 
-mapboxgl.accessToken = "pk.eyJ1IjoiZmxhenphcmluIiwiYSI6ImNrYTNvZGpzeDAwM3MzZm9kZmVxN2Z2aG0ifQ.OQKPzySJ5j1lEVte4NFzaA"
+mapboxgl.accessToken = "pk.eyJ1IjoicHdlc3RtYW4iLCJhIjoiY2s4MGQ2NGFuMGVrMDNkcnVwdWxtZGp3cSJ9.ZjCCygV_IlZ9MvMbafseBQ"
 
 class Mapbox extends React.Component {
     constructor(props) {
@@ -17,7 +17,7 @@ class Mapbox extends React.Component {
     componentDidMount() {
         const map = new mapboxgl.Map({
             container: this.mapContainer,
-            style: 'mapbox://styles/mapbox/streets-v11',
+            style: 'mapbox://styles/pwestman/ckdr8t7kk0qr519pinc3gujg3',
             center: [this.state.lng, this.state.lat],
             zoom: this.state.zoom
         });
