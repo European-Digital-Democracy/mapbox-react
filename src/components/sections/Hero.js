@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                A special website dedicated to digital democracy instruments of a nationwide scope. This includes 1) European countries according to United Nations Statistics Division definition of regions, (2) European Union member states, and (3) Eastern Partnership countries – a total of 48 countries.
+                This is a special website dedicated to digital democracy instruments of a nationwide scope. This includes 1) European countries according to United Nations Statistics Division definition of regions, (2) European Union member states, and (3) Eastern Partnership countries – a total of 48 countries.
                 </p>
               {/* <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
