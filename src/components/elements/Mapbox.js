@@ -18,8 +18,8 @@ class Mapbox extends React.Component {
         const map = new mapboxgl.Map({
             container: this.mapContainer,
             style: 'mapbox://styles/pwestman/ckdr8zc440m2g19qi69cz5kfw',
-            center: [0.1278, 51.5704],
-            zoom: 2.75
+            center: [24.129, 54.298],
+            zoom: 2.9
         });
     }
 

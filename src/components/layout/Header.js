@@ -114,9 +114,6 @@ const Header = ({
                     <li>
                       <Link to="#0" onClick={closeMenu}>Methodology</Link>
                     </li>
-                  <li>
-                    <Link to="#0" onClick={closeMenu}>Research Team</Link>
-                  </li>
                   </ul>
                   {!hideSignin &&
                     <ul
