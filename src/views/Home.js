@@ -15,7 +15,7 @@ const Home = () => {
       <Mapbox />
       {/* <FeaturesTiles /> */}
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      {/* <Testimonial topDivider /> */}
+      <Testimonial topDivider /> 
       {/* <Cta split /> */}
     </>
   );
