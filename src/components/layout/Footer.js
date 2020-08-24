@@ -43,7 +43,7 @@ const Footer = ({
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            <div className="footer-copyright"><a href="https://www.europeandigital.org/">European Digital Development Alliance</a></div>
+            <div className="footer-copyright"><a href="https://www.europeandigital.org/">European Digital Development Alliance</a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0</a></div>
           </div>
         </div>
       </div>
