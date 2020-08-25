@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Research Team',
-    paragraph: 'Diverse Team from around the world.'
+    title: 'Acknowledgements',
+    paragraph: 'Thanks to the support of our global team'
   };
 
   return (
@@ -60,11 +60,9 @@ const Testimonial = ({
 
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    sites.google.com/view/khutkyy/
+                  <a href="https://ua.linkedin.com/in/dmytro-khutkyy-a317ba57">More about Dmytro</a>
                       </p>
-                </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Dmytro Khutkyy</span>
                   <span className="text-color-low"> / </span>
