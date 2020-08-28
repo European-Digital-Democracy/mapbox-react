@@ -1,45 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import mapboxgl from 'mapbox-gl';
+import React from 'react'
+import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 
-mapboxgl.accessToken = "pk.eyJ1IjoicHdlc3RtYW4iLCJhIjoiY2s4MGQ2NGFuMGVrMDNkcnVwdWxtZGp3cSJ9.ZjCCygV_IlZ9MvMbafseBQ"
+const Map = ReactMapboxGl({
+    accessToken:
+        'pk.eyJ1IjoicHdlc3RtYW4iLCJhIjoiY2s4MGQ2NGFuMGVrMDNkcnVwdWxtZGp3cSJ9.ZjCCygV_IlZ9MvMbafseBQ'
+});
 
-class Mapbox extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            lng: 5,
-            lat: 34,
-            zoom: 2
-        };
-    }
-
-    componentDidMount() {
-        const map = new mapboxgl.Map({
-            container: this.mapContainer,
-            style: 'mapbox://styles/pwestman/ckdr8zc440m2g19qi69cz5kfw',
-            center: [14.129, 52.298],
-            zoom: 3.2
-        });
-    }
-
-    render() {
-        return (
-            // <div className="hero section center-content">
-                <div className="container-sm">
-                    <div className="hero-inner section-inner">
-                        <div className="hero-content">
-                            <div className="mt-0 mb-16">
-                                <div ref={el => this.mapContainer = el} className="mapContainer illustration-section-01" />
-                                </div>
-                                
-                        </div>
-                    </div>
-                </div>
-            // </div>
-        )
-    }
+function Mapbox() {
+    return (
+        <Map
+            style="mapbox://styles/mapbox/streets-v9"
+            containerStyle={{
+                height: '50vh',
+                width: '50vw'
+            }}
+        >
+            <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
+                <Feature coordinates={[-0.481747846041145, 51.3233379650232]} />
+            </Layer>
+        </Map>
+    )
 }
-// ReactDOM.render(<Application />, document.getElementById('app'));
 
-export default Mapbox;
+export default Mapbox
