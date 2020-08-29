@@ -9,7 +9,7 @@ const Map = ReactMapboxGl({
 function Mapbox() {
     return (
         <Map
-            style="mapbox://styles/pwestman/ckeg4udh62iai19qsevf51cax"
+            style="mapbox://styles/pwestman/ckeg5fy4w2irx19nt12mn7ox4"
             containerStyle={{
                 height: '70vh',
                 width: '90vw',
