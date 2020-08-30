@@ -61,10 +61,10 @@ const Testimonial = ({
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                   <p className="text-sm mb-0">
-                  <a href="https://ua.linkedin.com/in/dmytro-khutkyy-a317ba57">More about Dmytro</a>
+                  Dmytro is currently the Visby Visiting Researcher in the Department of Global Political Studies at Malmö University, Sweden.
                       </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Dmytro Khutkyy</span>
+                  <span className="testimonial-item-name text-color-high"><a href="https://ua.linkedin.com/in/dmytro-khutkyy-a317ba57"><u>Dmytro Khutkyy</u></a></span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">Project Leader</a>
@@ -91,10 +91,10 @@ const Testimonial = ({
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <p className="text-sm mb-0">
-                  <a href="https://ua.linkedin.com/in/dmytro-khutkyy-a317ba57">More about Fernando</a>
+                  Fernando is a web developer and photographer based in Milan.
                 </p>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Fernando Lazzarin</span>
+                  <span className="testimonial-item-name text-color-high"><a href="https://fernandolazzarin.com/"><u>Fernando Lazzarin</u></a></span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">Web Developer</a>
