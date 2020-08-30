@@ -3,21 +3,19 @@ import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 
 const Map = ReactMapboxGl({
     accessToken:
-        'pk.eyJ1IjoicHdlc3RtYW4iLCJhIjoiY2s4MGQ2NGFuMGVrMDNkcnVwdWxtZGp3cSJ9.ZjCCygV_IlZ9MvMbafseBQ'
+        'pk.eyJ1IjoicHdlc3RtYW4iLCJhIjoiY2tlZmxhaG4wMWRsYzJzbWlpZTVhbWl1eCJ9.ZqGDwQ8qHtXLgNY4tWIFMg',
+    container: 'map',
 });
 
 function Mapbox() {
     return (
         <Map
-            style="mapbox://styles/pwestman/ckefir9hm1ww319lzg43rtn4t"
+            style="mapbox://styles/pwestman/ckeg6d7d62jod19lz0lczn8mm"
             containerStyle={{
-                height: '70vh',
+                height: '80vh',
                 width: '100vw',
             }}
         >
-            <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
-                <Feature coordinates={[2.35, 51.3233379650232]} />
-            </Layer>
         </Map>
     )
 }
