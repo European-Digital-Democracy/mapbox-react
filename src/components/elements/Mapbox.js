@@ -9,7 +9,8 @@ const Map = ReactMapboxGl({
 function Mapbox() {
     return (
         <Map
-            style={"mapbox://styles/pwestman/ckeg5fy4w2irx19nt12mn7ox4"}
+        // eslint-disable-next-line
+            style= {'mapbox://styles/pwestman/ckeg5fy4w2irx19nt12mn7ox4'}
         zoom={[3.8]}
         center={[18.37, 50.86]}
         containerStyle={{
