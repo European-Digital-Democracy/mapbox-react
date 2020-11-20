@@ -44,7 +44,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/groups/149421709067895">
+          <a href="https://www.facebook.com/EUDigitalDev/">
             <svg
               width="16"
               height="16"
