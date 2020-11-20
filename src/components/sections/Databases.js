@@ -49,8 +49,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Country Databases',
-    paragraph: 'View digital democracy iniatives in indvidual countries'
+    title: 'Research Methodology',
+    paragraph: 'The methodology goes here.'
   };
 
   return (
